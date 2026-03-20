@@ -1,52 +1,58 @@
-🌐 WeTech
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=WeTech%20Community%20Hub&fontSize=40&fontColor=ffffff&animation=fadeIn" /> </p> <p align="center"> <b>Designed & Developed by Muhammad Ibrahim</b><br> <i>FAST-NUCES | CL-1000 ICT Project – Fall 2025</i> </p>
-🏷️ Project Badges
-<p align="center"> <img src="https://img.shields.io/badge/HTML-100%25-orange?style=for-the-badge&logo=html5" /> <img src="https://img.shields.io/badge/CSS-100%25-blue?style=for-the-badge&logo=css3" /> <img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" /> </p>
-🚀 About The Project
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=WeTech%20Community%20Hub&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-WeTech is a modern, fully responsive community hub platform built entirely with HTML and CSS.
+<p align="center">
+  <b>Designed & Developed by Muhammad Ibrahim</b><br>
+  <i>FAST-NUCES &nbsp;|&nbsp; CL-1000 ICT Project – Fall 2025</i>
+</p>
 
-It provides a centralized digital space where users can:
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Structure-orange?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/JavaScript-None-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" />
+</p>
 
-📰 Stay updated with community news
+---
 
-📅 Explore upcoming events
+## Overview
 
-🏪 Discover local businesses
+**WeTech** is a fully responsive community hub platform built entirely with **HTML and CSS — no JavaScript whatsoever.** It gives a local community a centralized digital space to follow news, discover events, find local businesses, and get in touch.
 
-📚 Access important resources
+The project is a deliberate challenge: every interactive element — accordions, tabs, carousels, dark mode — is powered purely by CSS, demonstrating just how far the language can be pushed without scripting.
 
-📬 Share feedback
+> Developed as a course project for **CL-1000 ICT (Fall 2025)** at FAST-NUCES.
 
-⚡ Built with zero JavaScript — demonstrating the power of pure CSS.
+---
 
-🎯 Features Breakdown
-Page	Description
-🏠 Home	Hero section, highlights, navigation
-📰 News	CSS accordion + image carousel
-📅 Events	Grid layout with hover expansion
-🏪 Directory	Categorized business listings
-📚 Resources	Tab-based interface (CSS only)
-📬 Contact	Form + Google Maps embed
-🌙 Advanced Features
+## Pages
 
-🌗 Dark/Light Mode (CSS Variables)
+| Page | What's On It |
+|------|-------------|
+| **Home** | Hero section, highlights, site-wide navigation |
+| **News** | CSS-only accordion + image carousel |
+| **Events** | Responsive grid with hover-expand cards |
+| **Directory** | Categorized local business listings |
+| **Resources** | Tab-based interface — no JS, pure CSS |
+| **Contact** | Feedback form + embedded Google Maps |
 
-📱 Fully Responsive Design
+---
 
-✨ Smooth Animations & Transitions
+## Notable CSS Techniques
 
-🎯 Clean and Consistent UI
+- **Dark / Light Mode** — toggled via CSS custom properties (`--var`)
+- **Accordion & Tabs** — driven by the `:checked` pseudo-class trick on hidden inputs
+- **Image Carousel** — CSS `animation` + `@keyframes`, zero scripting
+- **Responsive Layout** — Flexbox and Grid with fluid breakpoints
+- **Hover Interactions** — smooth transitions on cards, buttons, and nav items
 
-🛠️ Tech Stack
+---
 
-HTML5
+## Project Structure
 
-CSS3 (Flexbox, Grid, Animations)
-
-Google Maps Embed
-
-📂 Folder Structure
+```
 Community-Hub/
 ├── index.html
 ├── news.html
@@ -56,36 +62,41 @@ Community-Hub/
 ├── contact.html
 ├── css/
 │   └── styles.css
-├── assets/
-│   ├── images/
-│   └── logo/
-└── README.md
-▶️ Run Locally
+└── assets/
+    ├── images/
+    └── logo/
+```
+
+---
+
+## Run Locally
+
+```bash
 git clone https://github.com/m-ibraheem-isb/Community-Hub.git
 cd Community-Hub
-open index.html
-🧠 Learning Outcomes
+open index.html   # or just double-click index.html
+```
 
-Strong understanding of HTML structure and semantics
+No build step, no dependencies. It runs straight in the browser.
 
-Advanced CSS layouts using Flexbox and Grid
+---
 
-Building interactive UI without JavaScript
+## Academic Integrity
 
-Creating responsive, modern web designs
+- No templates, CMS, or UI frameworks
+- No JavaScript — every interaction is CSS-native
+- Fully original work meeting all course requirements
 
-⚖️ Academic Integrity
+---
 
-No templates or CMS used
+## License
 
-No frameworks or paid libraries
+For educational use only. Please do not submit this work as your own.
 
-Fully original work
+---
 
-Meets all FAST-NUCES project requirements
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer&animation=fadeIn" />
+</p>
 
-📄 License
-
-This project is developed for educational purposes only.
-
-<p align="center"> ⭐ If you like this project, consider giving it a star! </p>
+<p align="center">If this helped you, leave a ⭐ — it means a lot!</p>
