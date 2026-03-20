@@ -1,135 +1,139 @@
-🌐 WeTech – Community Hub Website
-📘 Project Overview
+````markdown
+# 🌐 WeTech  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=WeTech%20Community%20Hub&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-WeTech is a multi-page community hub website developed as part of the CL-1000: Introduction to Information and Communication Technologies course project (Fall 2025).
+<p align="center">
+  <b>Designed & Developed by Muhammad Ibrahim</b><br>
+  <i>FAST-NUCES | CL-1000 ICT Project – Fall 2025</i>
+</p>
 
-The platform is designed to connect community members by providing access to:
+---
 
-Latest news and announcements
+## 🏷️ Project Badges
 
-Upcoming local events
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-100%25-orange?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/CSS-100%25-blue?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" />
+</p>
 
-Business directory
+---
 
-Useful resources
+## 🚀 About The Project
+**WeTech** is a modern, fully responsive **community hub platform** built entirely with **HTML and CSS**.
 
-Contact and feedback system
+It provides a centralized digital space where users can:
+- 📰 Stay updated with community news  
+- 📅 Explore upcoming events  
+- 🏪 Discover local businesses  
+- 📚 Access important resources  
+- 📬 Share feedback  
 
-This project is built entirely using HTML and CSS, focusing on front-end design, responsiveness, and creative UI/UX without the use of JavaScript.
+> ⚡ Built with zero JavaScript — demonstrating the power of pure CSS.
 
-👥 Team Members
+---
 
-[Your Name] – [Roll Number]
+## 🎯 Features Breakdown
 
-[Teammate Name] – [Roll Number]
+| Page | Description |
+|------|------------|
+| 🏠 Home | Hero section, highlights, navigation |
+| 📰 News | CSS accordion + image carousel |
+| 📅 Events | Grid layout with hover expansion |
+| 🏪 Directory | Categorized business listings |
+| 📚 Resources | Tab-based interface (CSS only) |
+| 📬 Contact | Form + Google Maps embed |
 
-[Teammate Name] – [Roll Number]
+---
 
-🚀 Features
-🏠 1. Welcome Page
+## 🎨 UI Preview
 
-Hero section with introduction
+```md
+## 🖼️ Preview
 
-Featured highlights
+![Home Page](assets/images/home.png)
+![Events Page](assets/images/events.png)
+````
 
-Smooth hover effects and transitions
+---
 
-Navigation bar linking all pages
+## 🌙 Advanced Features
 
-📰 2. Community News
+* 🌗 Dark/Light Mode (CSS Variables)
+* 📱 Fully Responsive Design
+* ✨ Smooth Animations & Transitions
+* 🎯 Clean and Consistent UI
 
-CSS-only accordion for news articles
+---
 
-Auto-sliding image carousel using CSS animations
+## 🛠️ Tech Stack
 
-📅 3. Local Events
+```
+HTML5  
+CSS3 (Flexbox, Grid, Animations)  
+Google Maps Embed  
+```
 
-Grid-based event cards
+---
 
-Color-coded categories
+## 📂 Folder Structure
 
-Hover expansion for event details
-
-🏪 4. Business Directory
-
-Categorized local businesses
-
-Unique styling for each category
-
-Interactive hover animations
-
-📚 5. Resource Center
-
-Tab-based navigation using only CSS
-
-Organized and user-friendly layout
-
-📬 6. Contact & Feedback
-
-HTML/CSS-based contact form
-
-CSS validation styling
-
-Embedded Google Maps location
-
-🎨 Additional Highlights
-
-✅ Fully Responsive Design (Media Queries)
-
-🌙 Light/Dark Mode Toggle (CSS Variables)
-
-✨ Advanced CSS Animations & Transitions
-
-🎯 Clean UI with consistent design theme
-
-🛠️ Technologies Used
-
-HTML5
-
-CSS3 (Flexbox, Grid, Animations, Variables)
-
-Google Maps (iframe embed)
-
-📂 Project Structure
+```
 WeTech/
-│── index.html
-│── news.html
-│── events.html
-│── directory.html
-│── resources.html
-│── contact.html
-│── css/
+├── index.html
+├── news.html
+├── events.html
+├── directory.html
+├── resources.html
+├── contact.html
+├── css/
 │   └── styles.css
-│── images/
-│── README.md
-📸 Screenshots
+├── assets/
+│   ├── images/
+│   └── logo/
+└── README.md
+```
 
-(Add screenshots of your website here for better presentation)
+---
 
-⚠️ Important Notes
+## ▶️ Run Locally
 
-This project follows all course requirements.
+```bash
+git clone https://github.com/your-username/wetech.git
+cd wetech
+open index.html
+```
 
-No templates, CMS, or paid libraries were used.
+---
 
-All code is original and plagiarism-free.
+## 🧠 Learning Outcomes
 
-📌 How to Run
+* Strong understanding of HTML structure and semantics
+* Advanced CSS layouts using Flexbox and Grid
+* Building interactive UI without JavaScript
+* Creating responsive, modern web designs
 
-Download or clone the repository
+---
 
-Open index.html in any web browser
+## ⚖️ Academic Integrity
 
-Navigate through the pages using the menu
+* No templates or CMS used
+* No frameworks or paid libraries
+* Fully original work
+* Meets all FAST-NUCES project requirements
 
-💡 Future Improvements
+---
 
-Add JavaScript for enhanced interactivity
+## 📄 License
 
-Backend integration for real-time data
+This project is developed for educational purposes only.
 
-User authentication system
+---
 
-📄 License
-
-This project is created for academic purposes only.
+<p align="center">
+  ⭐ If you like this project, consider giving it a star!
+</p>
+```
